@@ -33,7 +33,7 @@ void prt(){
         while(aux!=NULL){
             cout<<aux->v<<" -> ";
             cout<<aux->exp<<" -> ";
-            cout<<aux->fecha<<" -> ";
+            cout<<aux->fecha<<" -> ";// Ahora intenta usar una estructura para almacenar día mes y año
             aux=aux->sgt;
         }
 }
@@ -65,4 +65,4 @@ int main(){
                 cout<<"------Bye--------";
         }
     }while(op!=4);
-}
+}// Revisado. Perfecto
